@@ -14,4 +14,4 @@ else:
 if __name__ == "__main__":
     # In a clinical/production environment, we use 0.0.0.0 to 
     # allow access within a hospital local network if needed.
-    app.run(host="0.0.0.0", port=5020)
+    app.run(host=os.getenv('FLASK_HOST'), port=os.getenv('FLASK_RUN_PORT'))

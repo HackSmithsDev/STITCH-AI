@@ -15,7 +15,6 @@ instance/
 # We keep the migrations folder structure but ignore the actual pyc files
 migrations/__pycache__/
 ai/ai_models
-Models/
 
 # --- AI & Logs ---
 *.log
